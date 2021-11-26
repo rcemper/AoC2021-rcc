@@ -12,7 +12,7 @@ RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisapp
 USER ${ISC_PACKAGE_MGRUSER}
 
 COPY data data
-copy python python
+COPY python python
 COPY  src src
 COPY module.xml module.xml
 COPY iris.script /tmp/iris.script
