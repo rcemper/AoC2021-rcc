@@ -3,8 +3,8 @@
   <Document name="aoc2021-rcc.ZPM">
     <Module>
       <Description>AoC 2021 demo by rcc</Description> 
-      <Name>aoc2020-template</Name>
-      <Version>1.0.0</Version>
+      <Name>aoc2021-rcc</Name>
+      <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.aoc2021.PKG"/>
