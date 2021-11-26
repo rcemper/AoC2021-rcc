@@ -1,9 +1,9 @@
-Class dc.aoc2020.Day1 Extends dc.aoc2020.Base
+Class dc.aoc2021.Day1 Extends dc.aoc2020.Base
 {
 
 Parameter InputFile = "input1.txt";
 
-// w ##class(dc.aoc2020.Day1).Run()
+// w ##class(dc.aoc2021.Day1).Run()
 
 ClassMethod Run(verbose = 0) As %Integer
 {
