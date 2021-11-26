@@ -26,8 +26,7 @@ def find_multiple_threes(n, target):
                 r -= 1
     return -1
 
-#  with open('../stream/input01.txt', mode='r') as inp:
-with open('/irisdev/app/data/input01.txt', mode='r') as inp:
+  with open('../stream/input01.txt', mode='r') as inp:
     n = [int(line.rstrip()) for line in inp] 
     p01= find_multiple_twos(n, 2020)
     p02= find_multiple_threes(n, 2020)
