@@ -8,8 +8,7 @@ def p1():
     return str(count)        
 
 def p2():
-#    lines = open("../stream/input02.txt").read().splitlines()
-    lines = open("/irisdev/app/data/input02.txt").read().splitlines()
+    lines = open("../stream/input02.txt").read().splitlines()
     count = 0
     for line in lines:
         line = line.replace('-',' ').replace(':','').split(' ')
