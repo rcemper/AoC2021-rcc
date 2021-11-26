@@ -1,35 +1,27 @@
-## aoc2020-template
+## aoc2021-template
 This is a template for [Advent of Code](https://adventofcode.com/) ObjectScript contest.
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
 ## Installation 
-
 Clone/git pull the repo into any local directory
-
+https://github.com/rcemper/AoC2021
 ```
-$ git clone https://github.com/intersystems-community/objectscript-docker-template.git
+$ git clone https://github.com/rcemper/AoC2021.git
 ```
-
 Open the terminal in this directory and run:
-
 ```
-$ docker-compose build
+ docker-compose build up -d
 ```
-
-3. Run the IRIS container with your project:
-
+Run the IRIS container with your project:
 ```
 $ docker-compose up -d
 ```
-
 ## How to Test it
-
 Open IRIS terminal:
-
 ```
 $ docker-compose exec iris iris session iris
-USER>w ##class(dc.aoc2020.Day1).Run()
+USER>w ##class(dc.aoc2021.Day1).Run()
 ```
 ## How to start coding
 This repository is ready to code in VSCode with ObjectScript plugin.
@@ -40,8 +32,7 @@ Feel free to delete PackageSample folder and place your ObjectScript classes in 
 /src/Package/Classname.cls
 [Read more about folder setup for InterSystems ObjectScript](https://community.intersystems.com/post/simplified-objectscript-source-folder-structure-package-manager)
 
-The script in Installer.cls will import everything you place under /src into IRIS.
-
+iris.script will import everything you place under /src into IRIS.
 
 ## What's inside the repository
 
