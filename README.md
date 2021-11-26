@@ -4,7 +4,7 @@ This is inherited from template for [Advent of Code](https://adventofcode.com/) 
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.   
 ## Installation 
 Clone/git pull the repo into any local directory
-https://github.com/rcemper/AoC2021
+https://github.com/rcemper/AoC2021-rcc.git
 ```
 $ git clone https://github.com/rcemper/AoC2021.git
 ```
