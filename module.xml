@@ -8,8 +8,7 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.aoc2021.PKG"/>
-      <FileCopy Name="python/" Target="${mgrdir}python/"/>
-      <FileCopy Name="data/" Target="${mgrdir}stream/"/>
+      <FileCopy Name="data/" Target="${mgrdir}user/"/>
     </Module>
   </Document>
 </Export>
