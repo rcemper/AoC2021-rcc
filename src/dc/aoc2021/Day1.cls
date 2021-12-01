@@ -1,14 +1,17 @@
 Class dc.aoc2021.Day1 [ Language = python ]
 {
-
 // d ##class(dc.aoc2021.Day1).Run()
-
 ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
 {
+import iris
+  
 if test==1:
-    file='tst1.txt'
+    data='tst1.txt'
 else:
-    file='input1.txt'
+    data='input1.txt'
+
+file = iris.cls('dc.aoc2021.base').aocdir(data)
+# print(file)
 
 with open(file) as f:
     data = [int(x) for x in f.read().splitlines()]
