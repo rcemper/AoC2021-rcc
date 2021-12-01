@@ -8,7 +8,7 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.aoc2021.PKG"/>
-      <FileCopy Name="data/" Target="${mgrdir}user/"/>
+      <FileCopy Name="data/" Target="${mgrdir}aoc"/>
     </Module>
   </Document>
 </Export>
