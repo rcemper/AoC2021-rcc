@@ -1,42 +1,26 @@
-Class dc.aoc2021.Day1 Extends Base
+Class dc.aoc2021.Day1 [ Language = python ]
 {
 
-Parameter InputFile = "input1.txt";
+// d ##class(dc.aoc2021.Day1).Run()
 
-// w ##class(dc.aoc2021.Day1).Run()
-
-ClassMethod Run(verbose = 0) As %Integer
+ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
 {
-    set stream=..GetInput(..#InputFile)
-    set sum=0
-	while 'stream.AtEnd {
-		set line=stream.ReadLine()
-        set line=line\3-2
-        set sum=sum+line
-        if verbose write "line="_line," ","sum="_sum,!
-    }
-    return sum
-}
+if test==1:
+    file='tst1.txt'
+else:
+    file='input1.txt'
 
-ClassMethod Run2(verbose = 0) As %Integer
-{
-        
-    set stream=..GetInput(..#InputFile)
-    set sum=0
-	while 'stream.AtEnd {
-		set line=stream.ReadLine()
-        set fuel=line
-        set full=0
-        for  {
-            set fuel=fuel\3-2
-            quit:fuel<0
-            set full=full+fuel
-            }  
-        set sum=sum+full
-        if verbose write "line="_line," ","sum="_sum,!
-    }
-    
-    return sum
+with open(file) as f:
+    data = [int(x) for x in f.read().splitlines()]
+
+if part != 2 :
+    p1 = sum(x < y for x, y in zip(data, data[1:]))
+    print('Part 1 : ',p1)
+
+if part != 1 :
+    sum3 = [sum(data[i:i + 3]) for i in range(len(data) - 2)]
+    p2 = sum(x < y for x, y in zip(sum3, sum3[1:]))
+    print('Part 2 : ',p2)
 }
 
 }
