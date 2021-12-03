@@ -128,6 +128,6 @@ rating of the submarine? (Be sure to represent your answer in decimal, not binar
 
 Answer: 
  
-Your puzzle answer was 2135254.
+Your puzzle answer was **_2135254_**.
 
 Both parts of this puzzle are complete! They provide two gold stars: **
