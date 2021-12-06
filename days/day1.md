@@ -63,7 +63,7 @@ How many measurements are larger than the previous measurement?
 
 Your puzzle answer was **_1266_**.
 
-The first half of this puzzle is complete! It provides one gold star: *
+The first half of this puzzle is complete! It provides one gold star: __*__
 
 ### --- Part Two ---     
 Considering every single measurement isn't as useful as you expected: there's just too much noise in the data.   
@@ -108,4 +108,4 @@ Consider sums of a three-measurement sliding window. How many sums are larger th
     
 Your puzzle answer was **_1217_**.
 
-Both parts of this puzzle are complete! They provide two gold stars: **
+Both parts of this puzzle are complete! They provide two gold stars: __**__
