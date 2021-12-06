@@ -74,7 +74,7 @@ Answer:
 
 Your puzzle answer was **_373378_**.
 
-The first half of this puzzle is complete! It provides one gold star: **[*]()**
+The first half of this puzzle is complete! It provides one gold star:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 
 ### --- Part Two --- ###
 Suppose the lanternfish live forever and have unlimited food and space.   
@@ -87,4 +87,4 @@ How many lanternfish would there be after 256 days?
 
 Your puzzle answer was **_1682576647495_**.
 
-Both parts of this puzzle are complete! They provide two gold stars: **[**]()**
+Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
