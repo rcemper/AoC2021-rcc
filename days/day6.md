@@ -74,6 +74,8 @@ Answer:
 
 Your puzzle answer was **_373378_**.
 
+The first half of this puzzle is complete! It provides one gold star: **[*]()**
+
 ### --- Part Two --- ###
 Suppose the lanternfish live forever and have unlimited food and space.   
 Would they take over the entire ocean?   
@@ -85,4 +87,4 @@ How many lanternfish would there be after 256 days?
 
 Your puzzle answer was **_1682576647495_**.
 
-Both parts of this puzzle are complete! They provide two gold stars: __**__
+Both parts of this puzzle are complete! They provide two gold stars: **[**]()**
