@@ -42,7 +42,7 @@ To begin, get your puzzle input.
 
 Your puzzle answer was **_1499229_**.
 
-The first half of this puzzle is complete! It provides one gold star: **[*]()**
+The first half of this puzzle is complete! It provides one gold star:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 
 ### --- Part Two ---   
 Based on your calculations, the planned course doesn't seem to make any sense.   
@@ -83,4 +83,4 @@ multiply your final horizontal position by your final depth?
 
 Your puzzle answer was **_1340836560_**.
 
-Both parts of this puzzle are complete! They provide two gold stars: **[**]()**
+Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
