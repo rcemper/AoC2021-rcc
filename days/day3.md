@@ -49,7 +49,7 @@ then multiply them together. What is the power consumption of the submarine?
 
 Your puzzle answer was **_2595824_**.
 
-The first half of this puzzle is complete! It provides one gold star: **[*]()**
+The first half of this puzzle is complete! It provides one gold star:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 ### --- Part Two ---
 Next, you should verify the life support rating, which can be determined by multiplying    
 the oxygen generator rating by the CO2 scrubber rating.   
@@ -129,4 +129,4 @@ Answer:
  
 Your puzzle answer was **_2135254_**.
 
-Both parts of this puzzle are complete! They provide two gold stars: **[**]()**
+Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
