@@ -63,7 +63,7 @@ How many measurements are larger than the previous measurement?
 
 Your puzzle answer was **_1266_**.
 
-The first half of this puzzle is complete! It provides one gold star: **[*]()**
+The first half of this puzzle is complete! It provides one gold star: **[*](https://github.com/rcemper/AoC2021-rcc/master/days/2star.jpg)**
 
 ### --- Part Two ---     
 Considering every single measurement isn't as useful as you expected:   
