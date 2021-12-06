@@ -63,7 +63,7 @@ How many measurements are larger than the previous measurement?
 
 Your puzzle answer was **_1266_**.
 
-The first half of this puzzle is complete! It provides one gold star: ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
+The first half of this puzzle is complete! It provides one gold star:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 
 ### --- Part Two ---     
 Considering every single measurement isn't as useful as you expected:   
@@ -114,4 +114,4 @@ How many sums are larger than the previous sum?
     
 Your puzzle answer was **_1217_**.
 
-Both parts of this puzzle are complete! They provide two gold stars: ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
+Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
