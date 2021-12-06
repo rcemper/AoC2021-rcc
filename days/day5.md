@@ -60,7 +60,7 @@ To begin, get your puzzle input.
 Answer: 
 Your puzzle answer was **_7380_**.
 
-The first half of this puzzle is complete! It provides one gold star: **[*]()**
+The first half of this puzzle is complete! It provides one gold star:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 
 ### --- Part Two ---  ###
 Unfortunately, considering only horizontal and vertical lines doesn't give you     
@@ -94,5 +94,5 @@ Consider all of the lines. At how many points do at least two lines overlap?
 Answer: 
 Your puzzle answer was **_21373_**.
 
-Both parts of this puzzle are complete! They provide two gold stars: **[**]()**
+Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
 ![](https://raw.githubusercontent.com/rcemper/AoC2021-rcc/master/days/2star.jpg)
