@@ -83,4 +83,4 @@ multiply your final horizontal position by your final depth?
 
 Your puzzle answer was **_1340836560_**.
 
-Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
+Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
