@@ -95,3 +95,4 @@ Answer:
 Your puzzle answer was **_21373_**.
 
 Both parts of this puzzle are complete! They provide two gold stars: **[**]()**
+![](https://raw.githubusercontent.com/rcemper/AoC2021-rcc/master/days/2star.jpg)
