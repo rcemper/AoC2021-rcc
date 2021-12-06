@@ -70,13 +70,14 @@ unmarked numbers on that board; in this case, the sum is 188.
 Then, multiply that sum by the number that was just called when the board won, 24,   
 to get the final score, 188 * 24 = **4512**.
 
-To guarantee victory against the giant squid, figure out which board will win first. What will your final score be if you choose that board?
+To guarantee victory against the giant squid, figure out which board will win first.    
+What will your final score be if you choose that board?
 
 To begin, get your puzzle input.
 
 Your puzzle answer was **_38913_**.
 
-The first half of this puzzle is complete! It provides one gold star: *
+The first half of this puzzle is complete! It provides one gold star: **[*]()**
 
 ### --- Part Two --- ####
 On the other hand, it might be wise to try a different strategy:   
@@ -94,4 +95,4 @@ unmarked numbers equal to 148 for a final score of 148 * 13 = **1924**.
 
 Your puzzle answer was **_16836_**.
 
-Both parts of this puzzle are complete! They provide two gold stars: **  
+Both parts of this puzzle are complete! They provide two gold stars: **[**]()**  
