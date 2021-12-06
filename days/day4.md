@@ -77,7 +77,7 @@ To begin, get your puzzle input.
 
 Your puzzle answer was **_38913_**.
 
-The first half of this puzzle is complete! It provides one gold star: **[*]()**
+The first half of this puzzle is complete! It provides one gold star:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 
 ### --- Part Two --- ####
 On the other hand, it might be wise to try a different strategy:   
@@ -95,4 +95,4 @@ unmarked numbers equal to 148 for a final score of 148 * 13 = **1924**.
 
 Your puzzle answer was **_16836_**.
 
-Both parts of this puzzle are complete! They provide two gold stars: **[**]()**  
+Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
