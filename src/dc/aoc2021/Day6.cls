@@ -30,12 +30,9 @@ else:
 file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
 
-############################
 inp = [line.strip() for line in open(file, 'r')]
 fish = list(map(int, re.findall(r'\d+', inp[0])))
 
-
-############################
 if part != 2 :
     p1 = Solve(80)
     print('Part 1 : ',p1)

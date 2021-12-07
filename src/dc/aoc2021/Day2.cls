@@ -1,6 +1,5 @@
 Class dc.aoc2021.Day2 [ Language = python ]
 {
-
 // d ##class(dc.aoc2021.Day2).Run()
 
 ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
@@ -30,12 +29,12 @@ for dir, delta in data:
             y += delta
 
 if part != 2 :
-    p1 = 'p1'
-    print('Part 1 : ',x * y)
+    p1 = x * y
+    print('Part 1 : ',p1)
 
 if part != 1 :
-    p2 = 'p2'
-    print('Part 2 : ',x * y1)
+    p2 = x * y1
+    print('Part 2 : ',p2)
 }
 
 }

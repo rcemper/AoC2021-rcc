@@ -51,13 +51,13 @@ for line in lines:
         overlaps[point] += 1
         if line.is_orthogonal():
             orthogonal_overlaps[point] += 1
-p1=sum(overlap > 1 for overlap in orthogonal_overlaps.values())
-p2=sum(overlap > 1 for overlap in overlaps.values())
 
 if part != 2 :
+    p1=sum(overlap > 1 for overlap in orthogonal_overlaps.values())
     print('Part 1 : ',p1)
 
 if part != 1 :
+    p2=sum(overlap > 1 for overlap in overlaps.values())
     print('Part 2 : ',p2)
 }
 
