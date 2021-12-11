@@ -1,6 +1,7 @@
-version: '3.6'
+version: '3.8'
 services:
   iris:
+    init: true
     build: 
       context: .
       dockerfile: Dockerfile
