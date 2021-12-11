@@ -8,15 +8,12 @@ ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
 import iris , re
 
 def mark_cards(cards, number):
-    """Go through cards list marking off number whenever it appears."""
     for card in cards:
         for row_index, row in enumerate(card):
             card[row_index] = [x if x != number else None for x in row]
     return cards
 
-
 def check_for_winner(cards):
-    """Return indicies of winning cards i.e. has a completed row or column."""
     winners = set()
     for card_num, card in enumerate(cards):
         row_winner = False
@@ -44,6 +41,7 @@ if test==1:
     data='tst4.txt'
 else:
     data='input4.txt'
+
 file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t',file)
 

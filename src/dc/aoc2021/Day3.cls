@@ -12,7 +12,7 @@ else:
     data='input3.txt'
 
 file = iris.cls('dc.aoc2021.base').aocdir(data)
-# print(file)
+print('\t'+file)
 
 with open(file) as f:
     data = [int(x, 2) for x in f]

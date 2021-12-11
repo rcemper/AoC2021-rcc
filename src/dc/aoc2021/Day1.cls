@@ -11,7 +11,7 @@ else:
     data='input1.txt'
 
 file = iris.cls('dc.aoc2021.base').aocdir(data)
-# print(file)
+print('\t'+file)
 
 with open(file) as f:
     data = [int(x) for x in f.read().splitlines()]

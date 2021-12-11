@@ -12,7 +12,7 @@ else:
     data='input2.txt'
 
 file = iris.cls('dc.aoc2021.base').aocdir(data)
-print('using : ',file)
+print('\t'+file)
 
 with open(file) as f:
     data = [line.split() for line in f]
