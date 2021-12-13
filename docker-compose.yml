@@ -12,5 +12,5 @@ services:
       - 53773
     volumes:
       - ./:/irisdev/app
-    environment:
-      - PYTHONHOME=/usr
+#    environment:
+#      - PYTHONHOME=/usr
