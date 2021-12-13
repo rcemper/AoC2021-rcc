@@ -7,9 +7,9 @@ ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
 import iris
   
 if test==1:
-    data='tst1.txt'
+    data='tst0.txt'
 else:
-    data='input1.txt'
+    data='input0.txt'
 
 file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
