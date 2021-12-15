@@ -1,5 +1,6 @@
 Class dc.aoc2021.Day0 [ Language = python ]
 {
+// for d=0:1:15 do $classmethod("dc.aoc2021.Day"_d,"Run",0,0) r !,y:1
 // d ##class(dc.aoc2021.Day0).Run()
 
 ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
@@ -7,11 +8,10 @@ ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
 import iris
   
 if test==1:
-    data='tst0.txt'
+    file='../aoc/tst0.txt'
 else:
-    data='input0.txt'
+    file='../aoc/input0.txt'
 
-file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
 
 with open(file) as f:

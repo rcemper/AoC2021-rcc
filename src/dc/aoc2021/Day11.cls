@@ -29,11 +29,10 @@ def try_flash(k):
         try_flash(n)
 
 if test==1:
-    data='tst11.txt'
+    file='../aoc/tst11.txt'
 else:
-    data='input11.txt'
+    file='../aoc/input11.txt'
 
-file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
 
 with open(file) as f:

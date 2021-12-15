@@ -9,12 +9,12 @@ import iris
 from collections import defaultdict
   
 if test==1:
-    data='tst81.txt'
+    file='../aoc/tst81.txt'
 elif test==2:
-    data='tst82.txt'
+    file='../aoc/tst82.txt'
 else:
-    data='input8.txt'
-file = iris.cls('dc.aoc2021.base').aocdir(data)
+    file='../aoc/input8.txt'
+
 print('\t'+file)
 input = list()
 

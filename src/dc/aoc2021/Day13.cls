@@ -7,11 +7,6 @@ ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
 {
 import iris
   
-if test==1:
-    data='tst13.txt'
-else:
-    data='input13.txt'
-
 def parseA(point):
     a, b = point.split(",")
     return (int(a),int(b))
@@ -40,7 +35,11 @@ def fold(points, cmd):
         newpoints.add((x,y))
     return newpoints
     
-file = iris.cls('dc.aoc2021.base').aocdir(data)
+if test==1:
+    file='../aoc/tst13.txt'
+else:
+    file='../aoc/input13.txt'
+
 print('\t'+file)
 
 f = file

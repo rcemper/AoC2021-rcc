@@ -8,11 +8,10 @@ ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
 import iris
   
 if test==1:
-    data='tst7.txt'
+   file='../aoc/tst7.txt'
 else:
-    data='input7.txt'
+    file='../aoc/input7.txt'
 
-file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
 
 with open(file) as f:

@@ -30,11 +30,10 @@ def search(grid, width, height):
                 visited.add((i1, j1))
 
 if test==1:
-    data='tst15.txt'
+    file='../aoc/tst15.txt'
 else:
-    data='input15.txt'
+    file='../aoc/input15.txt'
 
-file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
 
 with open(file) as f:

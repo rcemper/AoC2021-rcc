@@ -32,11 +32,10 @@ class Line:
         return [(x, y) for x, y in zip(xs, ys)]
   
 if test==1:
-    data='tst5.txt'
+    file='../aoc/tst5.txt'
 else:
-    data='input5.txt'
+    file='../aoc/input5.txt'
 
-file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
 
 with open(file) as f:

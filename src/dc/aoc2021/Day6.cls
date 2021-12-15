@@ -23,11 +23,10 @@ def Solve(rounds):
     return sum(d.values())
   
 if test==1:
-    data='tst6.txt'
+    file='../aoc/tst6.txt'
 else:
-    data='input6.txt'
+    file='../aoc/input6.txt'
 
-file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
 
 inp = [line.strip() for line in open(file, 'r')]

@@ -38,11 +38,10 @@ def check_for_winner(cards):
     return winners
 
 if test==1:
-    data='tst4.txt'
+    file='../aoc/tst4.txt'
 else:
-    data='input4.txt'
+    file='../aoc/input4.txt'
 
-file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t',file)
 
 with open(file, 'r') as aoc_input:

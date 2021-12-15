@@ -32,11 +32,10 @@ def bfs(data, i, j):
     return len(visited)
 
 if test==1:
-    data='tst9.txt'
+    file='../aoc/tst9.txt'
 else:
-    data='input9.txt'
+    file='../aoc/input9.txt'
 
-file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
 
 with open(file) as f:

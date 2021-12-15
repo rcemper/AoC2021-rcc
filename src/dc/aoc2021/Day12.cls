@@ -20,14 +20,14 @@ def dfs(last, seen, edges, repeats):
     return paths
   
 if test==1:
-    data='tst121.txt'
+    file='../aoc/tst121.txt'
 elif test==2:
-    data='tst122.txt'
+    file='../aoc/tst122.txt'
 elif test==3:
-    data='tst123.txt'
+    file='../aoc/tst123.txt'
 else:
-    data='input12.txt'
-file = iris.cls('dc.aoc2021.base').aocdir(data)
+    file='../aoc/input12.txt'
+
 print('\t'+file)
 
 with open(file) as f:

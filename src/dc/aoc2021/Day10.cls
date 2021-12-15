@@ -20,11 +20,10 @@ def get_mismatches(line):
     return [brackets[line[i]] for i in reversed(stack)]
       
 if test==1:
-    data='tst10.txt'
+    file='../aoc/tst10.txt'
 else:
-    data='input10.txt'
+    file='../aoc/input10.txt'
 
-file = iris.cls('dc.aoc2021.base').aocdir(data)
 print('\t'+file)
 
 with open(file) as f:

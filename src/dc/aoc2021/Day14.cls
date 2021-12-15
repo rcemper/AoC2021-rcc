@@ -38,11 +38,9 @@ def calc_2(template, between, steps):
     return calc_1(template, between, steps)
    
 if test==1:
-    data='tst14.txt'
+    file='../aoc/tst14.txt'
 else:
-    data='input14.txt'
-
-file = iris.cls('dc.aoc2021.base').aocdir(data)
+    file='../aoc/input14.txt'
 print('\t'+file)
 
 with open(file) as f:
