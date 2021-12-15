@@ -54,9 +54,6 @@ with open(file) as f:
         pair, char = rule.split(' -> ')
         between[pair] = char
 
-print(calc_1(template, between, 10))
-print(calc_2(template, between, 40))
-
 if part != 2 :
     p1 = calc_1(template, between, 10)
     print('Part 1 : ',p1)
