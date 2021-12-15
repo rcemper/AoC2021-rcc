@@ -185,8 +185,8 @@ to the bottom right corner with the lowest total risk:
 564757396567586841767869795287897181639891829**2**7419    
 675548893578665991468977611257918872236812998**33479**    
     
-The total risk of this path is 315 (the starting position is still    
-never entered, so its risk is not counted).    
+The total risk of this path is **315** (the starting position is   
+still never entered, so its risk is not counted).    
 
 Using the full map, **what is the lowest total risk of any path from     
 the top left to the bottom right?**
