@@ -82,8 +82,13 @@ C0015000016115A2E0802F182340 has the same structure as the previous example, but
 A0016C880162017C3686B18A3D4780 is an operator packet that contains an operator packet that contains an operator packet that contains five literal values; it has a version sum of 31.
 Decode the structure of your hexadecimal-encoded BITS transmission; what do you get if you add up the version numbers in all packets?
 
-Your puzzle answer was 854.
+To begin, get your puzzle input.
 
+Answer: 
+
+Your puzzle answer was _**854**_.
+
+The first half of this puzzle is complete! It provides one gold star:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 ### --- Part Two --- ###
 Now that you have the structure of your transmission decoded, you can calculate the value of the expression it represents.
 
@@ -110,9 +115,8 @@ F600BC2D8F produces 0, because 5 is not greater than 15.
 9C0141080250320F1802104A08 produces 1, because 1 + 3 = 2 * 2.
 What do you get if you evaluate the expression represented by your hexadecimal-encoded BITS transmission?
 
+Answer: 
+
 Your puzzle answer was 186189840660.
 
-Both parts of this puzzle are complete! They provide two gold stars: **
-
-At this point, you should return to your Advent calendar and try another puzzle.
-
+Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
