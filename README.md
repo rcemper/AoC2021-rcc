@@ -5,17 +5,16 @@ After >40 years writing un-countable lines of code in M*/COS/ISOS (and some othe
 I decided for myself to set a **strong signal for the future**. We have **Embedded Python** available   
 (still pre-release)! I just felt it as a sacrilege to ignore this excellent **NEW** opportunity and    
 stay with the old sermon that I had used for decades.      
-ALL class methods are exclusively writtten using Embedded Python.     
+ALL class methods of 25 exercises are exclusively writtten using Embedded Python.     
 
 For later use I added also all full descrptions of the exercises as Day*.md, a snapshot of the   
-private leaderboard at the time of completion and all test data and exercise input data.
+private leaderboard at the time of completion and all test data and exercise input data.     
 So you are able to follow in all details.
 
 ### Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.   
 ### Installation 
 Clone/git pull the repo into any local directory
-https://github.com/rcemper/AoC2021-rcc.git
 ```
  git clone https://github.com/rcemper/AoC2021-rcc.git
 ```
