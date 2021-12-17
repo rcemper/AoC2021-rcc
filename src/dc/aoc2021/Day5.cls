@@ -3,7 +3,7 @@ Class dc.aoc2021.Day5 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day5).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -10) As %Integer [ Language = python ]
 {
 import iris
 from collections import defaultdict
@@ -31,12 +31,9 @@ class Line:
             ys = reversed(ys)
         return [(x, y) for x, y in zip(xs, ys)]
   
-if test==1:
-    file='../aoc/tst5.txt'
-else:
-    file='../aoc/input5.txt'
-
-print('\t'+file)
+file=iris.cls("dc.aoc2021.File").Get(5,test)
+if len(file)==0:
+	return
 
 with open(file) as f:
     lines = [line.split(' -> ') for line in f]

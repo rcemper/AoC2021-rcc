@@ -2,16 +2,13 @@ Class dc.aoc2021.Day2 [ Language = python ]
 {
 // d ##class(dc.aoc2021.Day2).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris
   
-if test==1:
-    file='../aoc/tst2.txt'
-else:
-    file='../aoc/input2.txt'
-
-print('\t'+file)
+file=iris.cls("dc.aoc2021.File").Get(2,test)
+if len(file)==0:
+	return
 
 with open(file) as f:
     data = [line.split() for line in f]

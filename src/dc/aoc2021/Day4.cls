@@ -3,7 +3,7 @@ Class dc.aoc2021.Day4 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day4).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris , re
 
@@ -37,12 +37,9 @@ def check_for_winner(cards):
 
     return winners
 
-if test==1:
-    file='../aoc/tst4.txt'
-else:
-    file='../aoc/input4.txt'
-
-print('\t',file)
+file=iris.cls("dc.aoc2021.File").Get(4,test)
+if len(file)==0:
+	return
 
 with open(file, 'r') as aoc_input:
     sections = aoc_input.read().strip().split('\n\n')

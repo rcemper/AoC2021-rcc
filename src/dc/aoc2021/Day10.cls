@@ -3,7 +3,7 @@ Class dc.aoc2021.Day10 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day10).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris
 from bisect import insort
@@ -19,12 +19,9 @@ def get_mismatches(line):
                 return [char]
     return [brackets[line[i]] for i in reversed(stack)]
       
-if test==1:
-    file='../aoc/tst10.txt'
-else:
-    file='../aoc/input10.txt'
-
-print('\t'+file)
+file=iris.cls("dc.aoc2021.File").Get(10,test)
+if len(file)==0:
+	return
 
 with open(file) as f:
     data = list(f)

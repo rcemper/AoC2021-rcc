@@ -3,7 +3,7 @@ Class dc.aoc2021.Day13 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day13).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris
   
@@ -35,15 +35,11 @@ def fold(points, cmd):
         newpoints.add((x,y))
     return newpoints
     
-if test==1:
-    file='../aoc/tst13.txt'
-else:
-    file='../aoc/input13.txt'
-
-print('\t'+file)
-
-f = file
-a, b = open(f).read().split("\n\n")
+file=iris.cls("dc.aoc2021.File").Get(13,test)
+if len(file)==0:
+	return
+	
+a, b = open(file).read().split("\n\n")
 points = set([parseA(l.rstrip()) for l in a.strip().split("\n")])
 cmds = [parseB(l.rstrip()) for l in b.strip().split("\n")]
 

@@ -3,7 +3,7 @@ Class dc.aoc2021.Day9 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day9).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris
 from bisect import insort
@@ -31,12 +31,9 @@ def bfs(data, i, j):
                 visited.append((i1, j1))
     return len(visited)
 
-if test==1:
-    file='../aoc/tst9.txt'
-else:
-    file='../aoc/input9.txt'
-
-print('\t'+file)
+file=iris.cls("dc.aoc2021.File").Get(9,test)
+if len(file)==0:
+	return
 
 with open(file) as f:
     data = [[int(value) for value in line.strip()] for line in f]

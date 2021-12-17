@@ -3,17 +3,14 @@ Class dc.aoc2021.Day0 [ Language = python ]
 // for d=0:1:15 do $classmethod("dc.aoc2021.Day"_d,"Run",0,0) r !,y:1
 // d ##class(dc.aoc2021.Day0).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris
   
-if test==1:
-    file='../aoc/tst0.txt'
-else:
-    file='../aoc/input0.txt'
-
-print('\t'+file)
-
+file=iris.cls("dc.aoc2021.File").Get(0,test)
+if len(file)==0:
+	return
+	
 with open(file) as f:
     data = [int(x) for x in f.read().splitlines()]
 

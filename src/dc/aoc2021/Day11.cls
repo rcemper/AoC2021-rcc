@@ -3,7 +3,7 @@ Class dc.aoc2021.Day11 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day11).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris
 import itertools
@@ -28,12 +28,9 @@ def try_flash(k):
         grid[n] += 1
         try_flash(n)
 
-if test==1:
-    file='../aoc/tst11.txt'
-else:
-    file='../aoc/input11.txt'
-
-print('\t'+file)
+file=iris.cls("dc.aoc2021.File").Get(11,test)
+if len(file)==0:
+	return
 
 with open(file) as f:
     grid = {}

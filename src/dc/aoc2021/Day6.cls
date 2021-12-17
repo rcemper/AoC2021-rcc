@@ -3,7 +3,7 @@ Class dc.aoc2021.Day6 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day6).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris
 import re
@@ -22,12 +22,9 @@ def Solve(rounds):
 
     return sum(d.values())
   
-if test==1:
-    file='../aoc/tst6.txt'
-else:
-    file='../aoc/input6.txt'
-
-print('\t'+file)
+file=iris.cls("dc.aoc2021.File").Get(6,test)
+if len(file)==0:
+	return
 
 inp = [line.strip() for line in open(file, 'r')]
 fish = list(map(int, re.findall(r'\d+', inp[0])))

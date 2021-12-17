@@ -3,7 +3,7 @@ Class dc.aoc2021.Day12 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day12).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris,re
 from collections import defaultdict  
@@ -19,16 +19,9 @@ def dfs(last, seen, edges, repeats):
             paths += dfs(edge, seen | {edge}, edges, False)
     return paths
   
-if test==1:
-    file='../aoc/tst121.txt'
-elif test==2:
-    file='../aoc/tst122.txt'
-elif test==3:
-    file='../aoc/tst123.txt'
-else:
-    file='../aoc/input12.txt'
-
-print('\t'+file)
+file=iris.cls("dc.aoc2021.File").Get(12,test)
+if len(file)==0:
+	return
 
 with open(file) as f:
     data = re.findall(r'(.*)-(.*)\n', f.read())

@@ -3,9 +3,7 @@ Class dc.aoc2021.Day15 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day15).Run()
 
-ClassMethod Run(
-	part = 0,
-	test = 0) As %Integer [ Language = python ]
+ClassMethod Run( part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris
 import heapq
@@ -29,12 +27,9 @@ def search(grid, width, height):
                 heapq.heappush(pq, (dist + grid[i1][j1], (i1, j1)))
                 visited.add((i1, j1))
 
-if test==1:
-    file='../aoc/tst15.txt'
-else:
-    file='../aoc/input15.txt'
-
-print('\t'+file)
+file=iris.cls("dc.aoc2021.File").Get(15,test)
+if len(file)==0:
+	return
 
 with open(file) as f:
     data = [[int(x) for x in line] for line in f.read().splitlines()]

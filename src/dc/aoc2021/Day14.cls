@@ -3,9 +3,7 @@ Class dc.aoc2021.Day14 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day14).Run()
 
-ClassMethod Run(
-	part = 0,
-	test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0,test = -1) As %Integer [ Language = python ]
 {
 import iris
 from collections import Counter, defaultdict
@@ -37,11 +35,9 @@ def calc_1(template, between, steps):
 def calc_2(template, between, steps):
     return calc_1(template, between, steps)
    
-if test==1:
-    file='../aoc/tst14.txt'
-else:
-    file='../aoc/input14.txt'
-print('\t'+file)
+file=iris.cls("dc.aoc2021.File").Get(14,test)
+if len(file)==0:
+	return
 
 with open(file) as f:
     template, rules = f.read().split('\n\n')

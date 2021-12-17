@@ -3,19 +3,15 @@ Class dc.aoc2021.Day8 [ Language = python ]
 
 // d ##class(dc.aoc2021.Day8).Run()
 
-ClassMethod Run(part = 0, test = 0) As %Integer [ Language = python ]
+ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
 {
 import iris
 from collections import defaultdict
   
-if test==1:
-    file='../aoc/tst81.txt'
-elif test==2:
-    file='../aoc/tst82.txt'
-else:
-    file='../aoc/input8.txt'
+file=iris.cls("dc.aoc2021.File").Get(8,test)
+if len(file)==0:
+	return
 
-print('\t'+file)
 input = list()
 
 def part_1(input):
