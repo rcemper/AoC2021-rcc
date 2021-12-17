@@ -28,8 +28,13 @@ iris.script will import everything you place under /src into IRIS.
 Open IRIS terminal:
 ```
 $ docker-compose exec iris iris session iris
-USER>w ##class(dc.aoc2021.Day1).Run()
+USER>do ##class(dc.aoc2021.Day1).Run()
 ```
+- Extended Run parameters:  _do ##class(dc.aoc2021.Day3).Run(**part,test**)_ with    
+part =  1,2 ; run only first or second part of example, anything else = both    
+test = 0 ; use alternate input set     
+test = 1..n ; run other tests as provided by example  
+
 ### How to start coding
 This repository is ready to code in VSCode with ObjectScript plugin.       
 Install [VSCode](https://code.visualstudio.com/), [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) and [ObjectScript](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript) plugin and open the folder in VSCode.    
