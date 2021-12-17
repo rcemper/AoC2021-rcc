@@ -12,7 +12,7 @@ if len(file)==0:
 	return
 	
 with open(file) as f:
-    data = [int(x) for x in f.read().splitlines()]
+    data =f.readline()
 
 if part != 2 :
     p1 = 'p0.1'
