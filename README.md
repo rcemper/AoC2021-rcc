@@ -1,14 +1,17 @@
 ## aoc2021-rcc
 This is inherited from template for [Advent of Code](https://adventofcode.com/) ObjectScript contest.
 
-After >40 years writing un-countable lines of code in M*/COS/ISOS (and some other languages)   
+After >40 years writing in-countable lines of code in M*/COS/ISOS (and some more other languages)   
 I decided for myself to set a **strong signal for the future**. We have **Embedded Python** available   
 (still pre-release)! I just felt it as a sacrilege to ignore this excellent **NEW** opportunity and    
 stay with the old sermon that I had used for decades.      
 ALL class methods of 25 exercises are exclusively writtten using Embedded Python.     
 
-For later use I added also all full descrptions of the exercises as Day*.md, a snapshot of the   
-private leaderboard at the time of completion and all test data and exercise input data.     
+For later use I added also 
+- all full descrptions of the exercises as Day*.md,  
+- a snapshot of the private leaderboard at the time of completion of the exercise,
+- all test data, exercise input data and alternates exercise input data,         
+- result summaries for all Tesst, all Exercises, and all alternate Exercises.    
 So you are able to follow in all details.
 
 ### Prerequisites
@@ -40,7 +43,7 @@ This repository is ready to code in VSCode with ObjectScript plugin.
 Install [VSCode](https://code.visualstudio.com/), [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) and [ObjectScript](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript) plugin and open the folder in VSCode.    
 Open /src/cls/aoc2021/******.cls class and try to make changes      
 - it will be compiled in running IRIS docker container.    
-### What's inside the repository
+### What else is inside the repository
 #### Dockerfile
 The simplest dockerfile which starts IRIS and imports code from /src folder into it.      
 Use the related docker-compose.yml to easily setup additional parametes     
