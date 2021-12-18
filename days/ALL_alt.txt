@@ -1,0 +1,66 @@
+USER>for d=0:1:25 do $classmethod("dc.aoc2021.Day"_d,"Run",,0)
+        ../aoc/alt/0.txt
+Part 1 :  p0.1
+Part 2 :  p0.2
+        ../aoc/alt/1.txt
+Part 1 :  1548
+Part 2 :  1589
+        ../aoc/alt/2.txt
+Part 1 :  1693300
+Part 2 :  1857958050
+        ../aoc/alt/3.txt
+Part 1 :  3633500
+Part 2 :  4550283
+        ../aoc/alt/4.txt
+Part 1 :  38913
+Part 2 :  16836
+        ../aoc/alt/5.txt
+Part 1 :  6189
+Part 2 :  19164
+        ../aoc/alt/6.txt
+Part 1 :  359999
+Part 2 :  1631647919273
+        ../aoc/alt/7.txt
+Part 1 :  328187
+Part 2 :  91257582
+        ../aoc/alt/8.txt
+Part 1 :  495
+Part 2 :  1055164
+        ../aoc/alt/9.txt
+Part 1 :  550
+Part 2 :  1100682
+        ../aoc/alt/10.txt
+Part 1 :  392139
+Part 2 :  4001832844
+        ../aoc/alt/11.txt
+Part 1 :  1717
+Part 2 :  476
+        ../aoc/alt/12.txt
+Part 1 :  4970
+Part 2 :  137948
+        ../aoc/alt/13.txt
+Part 1 :  704
+Part 2 :
+#  #  ##   ##    ## ###  #### #  #  ##
+#  # #  # #  #    # #  # #    #  # #  #
+#### #    #  #    # ###  ###  #### #
+#  # # ## ####    # #  # #    #  # #
+#  # #  # #  # #  # #  # #    #  # #  #
+#  #  ### #  #  ##  ###  #### #  #  ##
+        ../aoc/alt/14.txt
+Part 1 :  3306
+Part 2 :  3760312702877
+        ../aoc/alt/15.txt
+Part 1 :  523
+Part 2 :  2876
+        ../aoc/alt/16.txt
+Part 1 :  908
+Part 2 :  10626195124371
+        ../aoc/alt/17.txt
+Part 1 :  7626
+Part 2 :  2032
+        ../aoc/alt/18.txt
+Part 1 :  4184
+Part 2 :  4731
+
+USER>

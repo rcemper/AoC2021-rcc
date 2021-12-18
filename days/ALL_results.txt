@@ -1,0 +1,65 @@
+;; ALL days results
+
+USER>for d=1:1:25 do $classmethod("dc.aoc2021.Day"_d,"Run")
+        ../aoc/input1.txt
+Part 1 :  1266
+Part 2 :  1217
+        ../aoc/input2.txt
+Part 1 :  1499229
+Part 2 :  1340836560
+        ../aoc/input3.txt
+Part 1 :  2595824
+Part 2 :  2135254
+         ../aoc/input4.txt
+Part 1 :  38913
+Part 2 :  16836
+        ../aoc/input5.txt
+Part 1 :  7380
+Part 2 :  21373
+        ../aoc/input6.txt
+Part 1 :  373378
+Part 2 :  1682576647495
+        ../aoc/input7.txt
+Part 1 :  352997
+Part 2 :  101571302
+        ../aoc/input8.txt
+Part 1 :  349
+Part 2 :  1070957
+        ../aoc/input9.txt
+Part 1 :  496
+Part 2 :  902880
+        ../aoc/input10.txt
+Part 1 :  370407
+Part 2 :  3249889609
+        ../aoc/input11.txt
+Part 1 :  1599
+Part 2 :  418
+        ../aoc/input12.txt
+Part 1 :  3563
+Part 2 :  105453
+        ../aoc/input13.txt
+Part 1 :  795
+Part 2 :
+ ##  ####   ## #  # #    #  #  ##    ##
+#  # #       # # #  #    #  # #  #    #
+#    ###     # ##   #    #  # #       #
+#    #       # # #  #    #  # # ##    #
+#  # #    #  # # #  #    #  # #  # #  #
+ ##  ####  ##  #  # ####  ##   ###  ##
+        ../aoc/input14.txt
+Part 1 :  3259
+Part 2 :  3459174981021
+        ../aoc/input15.txt
+Part 1 :  745
+Part 2 :  3002
+        ../aoc/input16.txt
+Part 1 :  854
+Part 2 :  186189840660
+        ../aoc/input17.txt
+Part 1 :  5995
+Part 2 :  3202
+        ../aoc/input18.txt
+Part 1 :  3763
+Part 2 :  4664
+
+USER>
