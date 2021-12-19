@@ -61,5 +61,8 @@ Part 2 :  3202
         ../aoc/input18.txt
 Part 1 :  3763
 Part 2 :  4664
-
+        ../aoc/input19.txt
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Part 1 :  323
+Part 2 :  10685
 USER>

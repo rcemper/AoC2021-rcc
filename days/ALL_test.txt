@@ -59,11 +59,8 @@ Part 2 :  2188189693529
         ../aoc/tst15.txt
 Part 1 :  40
 Part 2 :  315
-
-USER>for d=1:1:15 do $classmethod("dc.aoc2021.Day16","Run",,d)
         ../aoc/tst16.txt
         line = D2FE28
-
 110100101111111000101000
 Part 1 :  6
 Part 2 :  2021
@@ -79,76 +76,62 @@ Part 1 :  14
 Part 2 :  3
         ../aoc/tst164.txt
         line = 8A004A801A8002F478
-
 Part 1 :  16
 Part 2 :  15
         ../aoc/tst165.txt
         line = 620080001611562C8802118E34
-
 Part 1 :  12
 Part 2 :  46
         ../aoc/tst166.txt
         line = C0015000016115A2E0802F182340D2FE28
-
 Part 1 :  23
 Part 2 :  46
         ../aoc/tst167.txt
         line = A0016C880162017C3686B18A3D4780
-
 Part 1 :  31
 Part 2 :  54
         ../aoc/tst168.txt
         line = C200B40A82
-
 1100001000000000101101000000101010000010
 Part 1 :  14
 Part 2 :  3
         ../aoc/tst169.txt
         line = 04005AC33890
-
 000001000000000001011010110000110011100010010000
 Part 1 :  8
 Part 2 :  54
         ../aoc/tst1610.txt
         line = 880086C3E88112
-
 10001000000000001000011011000011111010001000000100010010
 Part 1 :  15
 Part 2 :  7
         ../aoc/tst1611.txt
         line = CE00C43D881120
-
 11001110000000001100010000111101100010000001000100100000
 Part 1 :  11
 Part 2 :  9
         ../aoc/tst1612.txt
         line = D8005AC2A8F0
-
 110110000000000001011010110000101010100011110000
 Part 1 :  13
 Part 2 :  1
         ../aoc/tst1613.txt
         line = F600BC2D8F
-
 1111011000000000101111000010110110001111
 Part 1 :  19
 Part 2 :  0
         ../aoc/tst1614.txt
         line = 9C005AC2F8F0
-
 100111000000000001011010110000101111100011110000
 Part 1 :  16
 Part 2 :  0
         ../aoc/tst1615.txt
         line = 9C0141080250320F1802104A08
-
 Part 1 :  20
 Part 2 :  1
         ../aoc/tst17.txt
 Part 1 :  45
 Part 2 :  112
-
-USER>for d=1:1:10 do $classmethod("dc.aoc2021.Day18","Run",,d)
         ../aoc/tst18.txt
 Part 1 :  4140
 Part 2 :  3993
@@ -170,5 +153,8 @@ Part 1 :  791
 Part 1 :  1137
         ../aoc/tst1810.txt
 Part 1 :  3488
-
+        ../aoc/tst19.txt
+>>>>
+Part 1 :  79
+Part 2 :  3621
 USER>

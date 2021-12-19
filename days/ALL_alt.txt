@@ -62,5 +62,8 @@ Part 2 :  2032
         ../aoc/alt/18.txt
 Part 1 :  4184
 Part 2 :  4731
-
+        ../aoc/alt/19.txt
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Part 1 :  381
+Part 2 :  12201
 USER>
