@@ -1,16 +1,17 @@
 ## aoc2021-rcc
-This is inherited from template for [Advent of Code](https://adventofcode.com/) ObjectScript contest.
+This is inherited from template for [Advent of Code](https://adventofcode.com/) contest.
 
 After >40 years writing in-countable lines of code in M*/COS/ISOS (and some more other languages)   
 I decided for myself to set a **strong signal for the future**. We have **Embedded Python** available   
 (still pre-release)! I just felt it as a sacrilege to ignore this excellent **NEW** opportunity and    
-stay with the old sermon that I had used for decades.      
-ALL class methods of 25 exercises are exclusively writtten using Embedded Python.     
+stay with the old sermon that I had used for decades.  
+[Advent]() means time of waiting. So to me it meant **Advent oc Embedded Pyhton Code** that finally   
+showed up. ALL class methods of 25 exercises are exclusively writtten using Embedded Python.     
 
 For later use I added also 
-- all full descrptions of the exercises as Day*.md,  
+- all full descirptions of the exercises as Day*.md,  
 - a snapshot of the private leaderboard at the time of completion of the exercise,
-- all test data, exercise input data and alternates exercise input data,         
+- all test data, exercises input data and alternate exercises input data,         
 - result summaries for all Tesst, all Exercises, and all alternate Exercises.    
 So you are able to follow in all details.
 
