@@ -5,7 +5,7 @@ After >40 years writing in-countable lines of code in M*/COS/ISOS (and some more
 I decided for myself to set a **strong signal for the future**. We have **Embedded Python** available   
 (still pre-release)! I just felt it as a sacrilege to ignore this excellent **NEW** opportunity and    
 stay with the old sermon that I had used for decades.  
-[Advent]() means time of waiting. So to me it meant **Advent oc Embedded Pyhton Code** that finally   
+**Advent** means time of waiting. So to me it meant **Advent oc Embedded Pyhton Code** that finally   
 showed up. ALL class methods of 25 exercises are exclusively writtten using Embedded Python.     
 
 For later use I added also 
@@ -34,7 +34,7 @@ Open IRIS terminal:
 $ docker-compose exec iris iris session iris
 USER>do ##class(dc.aoc2021.Day1).Run()
 ```
-- Extended Run parameters:  [do ##class(dc.aoc2021.Day3).Run(**part,test**)]() with    
+- Extended Run parameters:  _do ##class(dc.aoc2021.Day3).Run(**part,test**)_ with    
 part =  1,2 ; run only first or second part of example, anything else = both    
 test = 0 ; use alternate input set     
 test = 1..n ; run other tests as provided by example  
