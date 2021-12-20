@@ -1,11 +1,11 @@
 ## aoc2021-rcc
 This is inherited from template for [Advent of Code](https://adventofcode.com/) contest.
 
-After >40 years writing in-countable lines of code in M*/COS/ISOS (and some more other languages)   
+After >40 years writing in-countable lines of code in M*/COS/ISOS (and some other archaic languages)   
 I decided for myself to set a **strong signal for the future**. We have **Embedded Python** available   
 (still pre-release)! I just felt it as a sacrilege to ignore this excellent **NEW** opportunity and    
 stay with the old sermon that I had used for decades.  
-**Advent** means time of waiting. So to me it meant **Advent oc Embedded Pyhton Code** that finally   
+**Advent** means time of waiting. So to me it meant **Advent of Embedded Python Code** that finally   
 showed up. ALL class methods of 25 exercises are exclusively writtten using Embedded Python.     
 
 For later use I added also 
