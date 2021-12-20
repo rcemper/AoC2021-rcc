@@ -34,7 +34,7 @@ Open IRIS terminal:
 $ docker-compose exec iris iris session iris
 USER>do ##class(dc.aoc2021.Day1).Run()
 ```
-- Extended Run parameters:  _do ##class(dc.aoc2021.Day3).Run(**part,test**)_ with    
+- Extended Run parameters:  [do ##class(dc.aoc2021.Day3).Run(**part,test**)]() with    
 part =  1,2 ; run only first or second part of example, anything else = both    
 test = 0 ; use alternate input set     
 test = 1..n ; run other tests as provided by example  
