@@ -1,0 +1,223 @@
+
+USER>for day=0:1:21 for test = 1,-1,0  do $classmethod("dc.aoc2021.Day"_day,"Run",0,test) r y:1 
+        ../aoc/tst0.txt
+Part 1 :  p0.1
+Part 2 :  p0.2
+        ../aoc/input0.txt
+Part 1 :  p0.1
+Part 2 :  p0.2
+        ../aoc/alt/0.txt
+Part 1 :  p0.1
+Part 2 :  p0.2
+        ../aoc/tst1.txt
+Part 1 :  7
+Part 2 :  5
+        ../aoc/input1.txt
+Part 1 :  1266
+Part 2 :  1217
+        ../aoc/alt/1.txt
+Part 1 :  1548
+Part 2 :  1589
+        ../aoc/tst2.txt
+Part 1 :  150
+Part 2 :  900
+        ../aoc/input2.txt
+Part 1 :  1499229
+Part 2 :  1340836560
+        ../aoc/alt/2.txt
+Part 1 :  1693300
+Part 2 :  1857958050
+        ../aoc/tst3.txt
+Part 1 :  198
+Part 2 :  230
+        ../aoc/input3.txt
+Part 1 :  2595824
+Part 2 :  2135254
+        ../aoc/alt/3.txt
+Part 1 :  3633500
+Part 2 :  4550283
+        ../aoc/tst4.txt
+Part 1 :  4512
+Part 2 :  1924
+        ../aoc/input4.txt
+Part 1 :  38913
+Part 2 :  16836
+        ../aoc/alt/4.txt
+Part 1 :  38913
+Part 2 :  16836
+        ../aoc/tst5.txt
+Part 1 :  5
+Part 2 :  12
+        ../aoc/input5.txt
+Part 1 :  7380
+Part 2 :  21373
+        ../aoc/alt/5.txt
+Part 1 :  6189
+Part 2 :  19164
+        ../aoc/tst6.txt
+Part 1 :  5934
+Part 2 :  26984457539
+        ../aoc/input6.txt
+Part 1 :  373378
+Part 2 :  1682576647495
+        ../aoc/alt/6.txt
+Part 1 :  359999
+Part 2 :  1631647919273
+        ../aoc/tst7.txt
+Part 1 :  37
+Part 2 :  168
+        ../aoc/input7.txt
+Part 1 :  352997
+Part 2 :  101571302
+        ../aoc/alt/7.txt
+Part 1 :  328187
+Part 2 :  91257582
+        ../aoc/tst8.txt
+Part 1 :  0
+Part 2 :  5353
+        ../aoc/input8.txt
+Part 1 :  349
+Part 2 :  1070957
+        ../aoc/alt/8.txt
+Part 1 :  495
+Part 2 :  1055164
+        ../aoc/tst9.txt
+Part 1 :  15
+Part 2 :  1134
+        ../aoc/input9.txt
+Part 1 :  496
+Part 2 :  902880
+        ../aoc/alt/9.txt
+Part 1 :  550
+Part 2 :  1100682
+        ../aoc/tst10.txt
+Part 1 :  26397
+Part 2 :  288957
+        ../aoc/tst11.txt
+Part 1 :  1656
+Part 2 :  195
+        ../aoc/input11.txt
+Part 1 :  1599
+Part 2 :  418
+        ../aoc/alt/11.txt
+Part 1 :  1717
+Part 2 :  476
+        ../aoc/tst12.txt
+Part 1 :  10
+Part 2 :  36
+        ../aoc/input12.txt
+Part 1 :  3563
+Part 2 :  105453
+        ../aoc/alt/12.txt
+Part 1 :  4970
+Part 2 :  137948
+        ../aoc/tst13.txt
+Part 1 :  17
+Part 2 :
+#####
+#   #
+#   #
+#   #
+#####
+
+        ../aoc/input13.txt
+Part 1 :  795
+Part 2 :
+ ##  ####   ## #  # #    #  #  ##    ##
+#  # #       # # #  #    #  # #  #    #
+#    ###     # ##   #    #  # #       #
+#    #       # # #  #    #  # # ##    #
+#  # #    #  # # #  #    #  # #  # #  #
+ ##  ####  ##  #  # ####  ##   ###  ##
+        ../aoc/alt/13.txt
+Part 1 :  704
+Part 2 :
+#  #  ##   ##    ## ###  #### #  #  ##
+#  # #  # #  #    # #  # #    #  # #  #
+#### #    #  #    # ###  ###  #### #
+#  # # ## ####    # #  # #    #  # #
+#  # #  # #  # #  # #  # #    #  # #  #
+#  #  ### #  #  ##  ###  #### #  #  ##
+        ../aoc/tst14.txt
+Part 1 :  1588
+Part 2 :  2188189693529
+        ../aoc/input14.txt
+Part 1 :  3259
+Part 2 :  3459174981021
+        ../aoc/alt/14.txt
+Part 1 :  3306
+Part 2 :  3760312702877
+        ../aoc/tst15.txt
+Part 1 :  40
+Part 2 :  315
+        ../aoc/input15.txt
+Part 1 :  745
+Part 2 :  3002
+        ../aoc/alt/15.txt
+Part 1 :  523
+Part 2 :  2876
+        ../aoc/tst16.txt
+part=0  line = D2FE28
+
+110100101111111000101000
+Part 1 :  6
+Part 2 :  2021
+        ../aoc/input16.txt
+Part 1 :  854
+Part 2 :  186189840660
+        ../aoc/alt/16.txt
+Part 1 :  908
+Part 2 :  10626195124371
+        ../aoc/tst17.txt
+Part 1 :  45
+Part 2 :  112
+        ../aoc/input17.txt
+Part 1 :  5995
+Part 2 :  3202
+        ../aoc/alt/17.txt
+Part 1 :  7626
+Part 2 :  2032
+        ../aoc/tst18.txt
+Part 1 :  4140
+Part 2 :  3993
+        ../aoc/input18.txt
+Part 1 :  3763
+Part 2 :  4664
+        ../aoc/alt/18.txt
+Part 1 :  4184
+Part 2 :  4731
+        ../aoc/tst19.txt
+>>>>
+Part 1 :  79
+Part 2 :  3621
+        ../aoc/input19.txt
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Part 1 :  323
+Part 2 :  10685
+        ../aoc/alt/19.txt
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Part 1 :  381
+Part 2 :  12201
+        ../aoc/tst20.txt
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Part 1 :  35
+Part 2 :  3351
+        ../aoc/input20.txt
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Part 1 :  5563
+Part 2 :  19743
+        ../aoc/alt/20.txt
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Part 1 :  5786
+Part 2 :  16757
+        ../aoc/tst21.txt
+Part 1 :  739785
+Part 2 :  444356092776315
+        ../aoc/input21.txt
+Part 1 :  713328
+Part 2 :  92399285032143
+        ../aoc/alt/21.txt
+Part 1 :  1006866
+Part 2 :  273042027784929
+
+USER>
