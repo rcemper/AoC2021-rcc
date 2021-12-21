@@ -8,7 +8,7 @@ import iris
   
 file=iris.cls("dc.aoc2021.File").Get(3,test)
 if len(file)==0:
-	return)
+    return
 
 with open(file) as f:
     data = [int(x, 2) for x in f]
