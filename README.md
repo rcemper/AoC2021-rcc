@@ -12,7 +12,7 @@ For later use I added also
 - all full descirptions of the exercises as Day*.md,  
 - a snapshot of the private leaderboard at the time of completion of the exercise,
 - all test data, exercises input data and alternate exercises input data,         
-- result summaries for all Tesst, all Exercises, and all alternate Exercises.    
+- result summaries for all Test, all Exercises, and all alternate Exercises.    
 So you are able to follow in all details.
 
 ### Prerequisites
