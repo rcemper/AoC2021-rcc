@@ -5,14 +5,14 @@ After >40 years writing in-countable lines of code in M*/COS/ISOS (and some othe
 I decided for myself to set a **strong signal for the future**. We have **Embedded Python** available   
 (still pre-release)! I just felt it as a sacrilege to ignore this excellent **NEW** opportunity and    
 stay with the old sermon that I had used for decades.  
-**Advent** means time of waiting. So to me it meant **Advent of Embedded Python Code** that finally   
-showed up. ALL class methods of 25 exercises are exclusively writtten using Embedded Python.     
+**Advent** means time of waiting. So to me, it meant **Advent of Embedded Python Code** that finally   
+showed up. ALL class methods of 25 exercises are exclusively written using Embedded Python.     
 
 For later use I added also 
-- all full descirptions of the exercises as Day*.md,  
+- all full descriptions of the exercises as Day*.md,  
 - a snapshot of the private leaderboard at the time of completion of the exercise,
 - all test data, exercises input data and alternate exercises input data,         
-- result summaries for all Test, all Exercises, and all alternate Exercises.    
+- result summaries for all Tests, all Exercises, and all alternate Exercises.    
 So you are able to follow in all details.
 
 ### Prerequisites
@@ -58,4 +58,4 @@ Config file if you want to debug with VSCode ObjectScript
 
 ![image](https://user-images.githubusercontent.com/31236645/147001566-b6005e88-9fae-42ab-9656-b4b9ea40a375.png)
 
-[Article in DC](https://community.intersystems.com)
+[Article in DC](https://community.intersystems.com/post/aoc2021-rcc)
