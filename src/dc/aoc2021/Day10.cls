@@ -26,8 +26,9 @@ if len(file)==0:
 with open(file) as f:
     data = list(f)
 
-mismatch_weights = {')': 3, ']': 57, '}': 1197, '>': 25137}
-closing_weights = {')': 1, ']': 2, '}': 3, '>': 4}
+# studio dislikes closing curly brackets chr(125)
+mismatch_weights = {')': 3, ']': 57, chr(125): 1197, '>': 25137}
+closing_weights = {')': 1, ']': 2, chr(125): 3, '>': 4}
 
 mismatch_score = 0
 scores = []
