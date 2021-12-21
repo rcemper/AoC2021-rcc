@@ -116,6 +116,7 @@ if part != 2 :
 
 if part != 1 :
     print('\nPart 2 : ',p2,end='')
+print()
 }
 
 }
