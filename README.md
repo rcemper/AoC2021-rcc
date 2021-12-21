@@ -56,4 +56,6 @@ Settings file to let you immedietly code in VSCode with [VSCode ObjectScript plu
 #### .vscode/launch.json
 Config file if you want to debug with VSCode ObjectScript
 
+![image](https://user-images.githubusercontent.com/31236645/147001566-b6005e88-9fae-42ab-9656-b4b9ea40a375.png)
+
 [Article in DC](https://community.intersystems.com)
