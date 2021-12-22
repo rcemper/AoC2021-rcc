@@ -188,4 +188,3 @@ Answer:
 Your puzzle answer was _**1211172281877240**_.
 
 Both parts of this puzzle are complete! They provide two gold stars: ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
-
