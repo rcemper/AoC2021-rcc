@@ -72,4 +72,8 @@ Part 2 :  19743
         ../aoc/input21.txt
 Part 1 :  713328
 Part 2 :  92399285032143
+        ../aoc/input22.txt
+Part 1 :  591365
+Part 2 :  1211172281877240
+
 USER>

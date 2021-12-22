@@ -164,5 +164,14 @@ Part 2 :  3351
         ../aoc/tst21.txt
 Part 1 :  739785
 Part 2 :  444356092776315
+        ../aoc/tst22.txt
+Part 1 :  39
+Part 2 :  39
+        ../aoc/tst222.txt
+Part 1 :  511284
+Part 2 :  39769202357779
+        ../aoc/tst223.txt
+Part 1 :  474140
+Part 2 :  2758514936282235
 
 USER>
