@@ -13,7 +13,7 @@ For later use I added also
 - all full descriptions of the exercises as Day*.md,  
 - a snapshot of the private leaderboard at the time of completion of the exercise,
 - all test data, exercises input data and alternate exercises input data,         
-- result summaries for all Tests, all Exercises, and all alternate Exercises.    
+- result summaries for all Test examples, all Exercises, and all alternate Exercises.    
 So you are able to follow in all details.
 
 ### Prerequisites
@@ -38,7 +38,22 @@ USER>do ##class(dc.aoc2021.Day1).Run()
 - Extended Run parameters:  _do ##class(dc.aoc2021.Day3).Run(**part,test**)_ with    
 part =  1,2 ; run only first or second part of example, anything else = both    
 test = 0 ; use alternate input set     
-test = 1..n ; run other tests as provided by example  
+test = 1..n ; run other tests as provided by example 
+````
+; to run all exercises use
+for day=0:1:25 do $classmethod("dc.aoc2021.Day"_day,"Run")
+; to run all alteratete exercises use  test=0
+for day=0:1:25 do $classmethod("dc.aoc2021.Day"_day,"Run",,0)
+; to run all first test examples use
+for day=0:1:25 do $classmethod("dc.aoc2021.Day"_day,"Run",,1)
+````
+Some exercises have more then 1 example:   
+ex8->2, ex12->3, ex16->15, ex18->10, ex22->3 
+````
+; to run all test examlpes of day 16
+for example=1:1:15 do ##class(dc.aoc2021.Day16).Run(,example)
+````
+Files <repo>/data/ALL*.txt hold all available results
 
 ### How to start coding
 This repository is ready to code in VSCode with ObjectScript plugin.       
