@@ -68,9 +68,7 @@ like port number and where you map keys and host folders.
 #### iris.script
 Setup Objectscript code which is being executed during docker build phase
 #### .vscode/settings.json
-Settings file to let you immedietly code in VSCode with [VSCode ObjectScript plugin](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript))
-#### .vscode/launch.json
-Config file if you want to debug with VSCode ObjectScript
+Settings file to let you immediatley code in VSCode with [VSCode ObjectScript plugin](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript))
 
 ![image](https://user-images.githubusercontent.com/31236645/147001566-b6005e88-9fae-42ab-9656-b4b9ea40a375.png)
 
