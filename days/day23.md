@@ -123,7 +123,7 @@ Answer:
  
 Your puzzle answer was _**12240**_.
 
-The first half of this puzzle is complete! It provides one gold star: *
+The first half of this puzzle is complete! It provides one gold star:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 
 ### --- Part Two --- ###
 As you prepare to give the amphipods your solution, you notice that the diagram they handed      
