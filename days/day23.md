@@ -2,9 +2,9 @@
 A group of [amphipods](https://en.wikipedia.org/wiki/Amphipoda) notice your fancy submarine and flag you down. "With such an impressive shell,"    
 one amphipod says, "surely you can help us with a question that has stumped our best scientists."    
 
-They go on to explain that a group of timid, stubborn amphipods live in a nearby burrow. Four types of amphipods     
-live there: Amber (A), Bronze (B), Copper (C), and Desert (D). They live in a burrow that consists of a hallway     
-and four side rooms. The side rooms are initially full of amphipods, and the hallway is initially empty.    
+They go on to explain that a group of timid, stubborn amphipods live in a nearby burrow. Four types of      
+amphipods live there: Amber (A), Bronze (B), Copper (C), and Desert (D). They live in a burrow that consists of a     
+hallway  and four side rooms. The side rooms are initially full of amphipods, and the hallway is initially empty.    
 
 They give you a diagram of the situation (your puzzle input), including locations of each amphipod (A, B, C, or D,     
 each of which is occupying an otherwise open space), walls (#), and open space (.).
@@ -123,14 +123,17 @@ Your puzzle answer was _**12240**_.
 The first half of this puzzle is complete! It provides one gold star: *
 
 --- Part Two ---
-As you prepare to give the amphipods your solution, you notice that the diagram they handed you was actually folded up. As you unfold it, you discover an extra part of the diagram.
+As you prepare to give the amphipods your solution, you notice that the diagram they handed you was      
+actually folded up. As you unfold it, you discover an extra part of the diagram.
 
-Between the first and second lines of text that contain amphipod starting positions, insert the following lines:
-
+Between the first and second lines of text that contain amphipod starting positions,      
+insert the following lines:
+````
   #D#C#B#A#
   #D#B#A#C#
+````
 So, the above example now becomes:
-
+````
 #############
 #...........#
 ###B#C#B#D###
@@ -340,6 +343,7 @@ In this updated example, the least energy required to organize these amphipods i
   #A#B#C#D#
   #A#B#C#D#
   #########
+````
 Using the initial configuration from the full diagram, what is the least energy required to organize the amphipods?
 
 Answer: 
