@@ -46,6 +46,8 @@ for day=0:1:25 do $classmethod("dc.aoc2021.Day"_day,"Run")
 for day=0:1:25 do $classmethod("dc.aoc2021.Day"_day,"Run",,0)
 ; to run all first test examples use
 for day=0:1:25 do $classmethod("dc.aoc2021.Day"_day,"Run",,1)
+; to run ALL this with just one line
+for day=0:1:25 for test=-1:1:1 do $classmethod("dc.aoc2021.Day"_day,"Run",,test)
 ````
 Some exercises have more then 1 example:   
 ex8->2, ex12->3, ex16->15, ex18->10, ex22->3 
