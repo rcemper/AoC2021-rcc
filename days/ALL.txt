@@ -1,5 +1,4 @@
-
-USER>for day=0:1:21 for test = 1,-1,0  do $classmethod("dc.aoc2021.Day"_day,"Run",0,test) r y:1 
+USER>for day=0:1:25 for test = 1,-1,0  do $classmethod("dc.aoc2021.Day"_day,"Run",0,test) r y:1
         ../aoc/tst0.txt
 Part 1 :  p0.1
 Part 2 :  p0.2
