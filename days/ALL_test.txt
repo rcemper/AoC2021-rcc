@@ -173,5 +173,8 @@ Part 2 :  39769202357779
         ../aoc/tst223.txt
 Part 1 :  474140
 Part 2 :  2758514936282235
+        ../aoc/tst23.txt
+Part 1 :  12521
+Part 2 :  44169
 
 USER>
