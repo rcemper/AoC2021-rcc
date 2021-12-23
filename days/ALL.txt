@@ -219,5 +219,23 @@ Part 2 :  92399285032143
         ../aoc/alt/21.txt
 Part 1 :  1006866
 Part 2 :  273042027784929
+        ../aoc/tst22.txt
+Part 1 :  39
+Part 2 :  39
+        ../aoc/input22.txt
+Part 1 :  591365
+Part 2 :  1211172281877240
+        ../aoc/alt/22.txt
+Part 1 :  600458
+Part 2 :  1334275219162622
+        ../aoc/tst23.txt
+Part 1 :  12521
+Part 2 :  44169
+        ../aoc/input23.txt
+Part 1 :  12240
+Part 2 :  44618
+        ../aoc/alt/23.txt
+Part 1 :  10526
+Part 2 :  41284
 
 USER> ??????????????????????????????????
