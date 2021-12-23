@@ -1,6 +1,7 @@
 ## --- Day 23: Amphipod --- ##
-A group of [amphipods](https://en.wikipedia.org/wiki/Amphipoda) notice your fancy submarine and flag you down. "With such an impressive shell,"    
-one amphipod says, "surely you can help us with a question that has stumped our best scientists."    
+A group of [amphipods](https://en.wikipedia.org/wiki/Amphipoda) notice your fancy submarine and flag you down.      
+"With such an impressive shell," one amphipod says, "surely you can help us with a question that has      
+stumped our best scientists."    
 
 They go on to explain that a group of timid, stubborn amphipods live in a nearby burrow. Four types of      
 amphipods live there: Amber (A), Bronze (B), Copper (C), and Desert (D). They live in a burrow that consists of a     
@@ -122,18 +123,18 @@ Your puzzle answer was _**12240**_.
 
 The first half of this puzzle is complete! It provides one gold star: *
 
---- Part Two ---
-As you prepare to give the amphipods your solution, you notice that the diagram they handed you was      
-actually folded up. As you unfold it, you discover an extra part of the diagram.
+### --- Part Two --- ###
+As you prepare to give the amphipods your solution, you notice that the diagram they handed      
+you was actually folded up. As you unfold it, you discover an extra part of the diagram.
 
 Between the first and second lines of text that contain amphipod starting positions,      
 insert the following lines:
-````
+````     
   #D#C#B#A#
   #D#B#A#C#
-````
+````     
 So, the above example now becomes:
-````
+````     
 #############
 #...........#
 ###B#C#B#D###
@@ -141,8 +142,9 @@ So, the above example now becomes:
   #D#B#A#C#
   #A#D#C#A#
   #########
+````           
 The amphipods still want to be organized into rooms similar to before:
-
+````     
 #############
 #...........#
 ###A#B#C#D###
@@ -150,8 +152,9 @@ The amphipods still want to be organized into rooms similar to before:
   #A#B#C#D#
   #A#B#C#D#
   #########
-In this updated example, the least energy required to organize these amphipods is 44169:
-
+````     
+In this updated example, the least energy required to organize these amphipods is **44169**:
+````     
 #############
 #...........#
 ###B#C#B#D###
@@ -348,7 +351,7 @@ Using the initial configuration from the full diagram, what is the least energy 
 
 Answer: 
 
-Your puzzle answer was 12240.
+Your puzzle answer was _**12240**_.
 
 The first half of this puzzle is complete! It provides one gold star: ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 
