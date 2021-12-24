@@ -6,7 +6,7 @@ I decided for myself to set a **strong signal for the future**. We have **Embedd
 (still pre-release)! I just felt it as a sacrilege to ignore this excellent **NEW** opportunity and    
 stay with the old sermon that I had used for decades.  
 **Advent** means time of waiting and preparing for something important to come.  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)     
-So to me, it meant **Advent of Embedded Python Code** that finally showed up.  
+So to me, it meant **Advent of Embedded Python Code** that finally showed up in time.  
 ALL class methods of 25 exercises + Utility are exclusively written using Embedded Python.     
 And I'm proud that it ranked as **#3 completed** by registered members of the Developer Community.        
 
