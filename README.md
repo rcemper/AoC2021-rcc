@@ -54,7 +54,7 @@ for day=0:1:25 do $classmethod("dc.aoc2021.Day"_day,"Run",,1)
 for day=0:1:25 for test=-1:1:1 do $classmethod("dc.aoc2021.Day"_day,"Run",,test)
 ````
 Some exercises have more then 1 example:   
-ex8->2, ex12->3, ex16->15, ex18->10, ex22->3 
+Day8:2, Day12:3, Day16:15, Day18:10, Day22:3, Day24:none 
 ````
 ; to run all test examlpes of day 16
 for example=1:1:15 do ##class(dc.aoc2021.Day16).Run(,example)
