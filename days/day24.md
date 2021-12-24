@@ -5,16 +5,18 @@ produce cool patterns with its Christmas lights!
 
 It also can't navigate. Or run the oxygen system.    
 
-Don't worry, though - you probably have enough oxygen left to give you enough time to build a new ALU.
+Don't worry, though - you **probably** have enough oxygen left to give you enough time     
+to build a new ALU.
 
 The ALU is a four-dimensional processing unit: it has integer variables w, x, y, and z.     
-These variables all start with the value 0. The ALU also supports six instructions:
--inp a - Read an input value and write it to variable a.    
+These variables all start with the value 0.    
+The ALU also supports **six instructions**:    
+- inp a - Read an input value and write it to variable a.    
 - add a b - Add the value of a to the value of b, then store the result in variable a.    
 - mul a b - Multiply the value of a by the value of b, then store the result in variable a.    
 - div a b - Divide the value of a by the value of b, truncate the result to an integer,     
 then store the result in variable a. (Here, "truncate" means to round the value toward zero.)    
-- mod a b - Divide the value of a by the value of b, then store the remainder in variable a.     
+- mod a b - Divide the value of a by the value of b, then store the **remainder** in variable a.     
 (This is also called the modulo operation.)    
 - eql a b - If the value of a and b are equal, then store the value 1 in variable a.     
 Otherwise, store the value 0 in variable a.    
@@ -23,7 +25,7 @@ In all of these instructions, a and b are placeholders; a will always be the var
 of the operation is stored (one of w, x, y, or z), while b can be either a variable or a number.     
 Numbers can be positive or negative, but will always be integers.    
 
-The ALU has no jump instructions; in an ALU program, every instruction is run exactly once in order     
+The ALU has no **jump** instructions; in an ALU program, every instruction is run exactly once in order     
 from top to bottom. The program halts after the last instruction has finished executing.    
 
 (Program authors should be especially cautious; attempting to execute div with b=0 or attempting to     
@@ -60,28 +62,29 @@ div w 2
 mod w 2
 ````
 Once you have built a replacement ALU, you can install it in the submarine, which will immediately     
-resume what it was doing when the ALU failed: validating the submarine's model number. To do this,     
+resume what it was doing when the ALU failed: validating the submarine's **model number**. To do this,     
 the ALU will run the Model Number Automatic Detector program (MONAD, your puzzle input).    
 
-Submarine model numbers are always fourteen-digit numbers consisting only of digits 1 through 9.     
-The digit 0 cannot appear in a model number.    
+Submarine model numbers are always **fourteen-digit numbers** consisting only of digits 1 through 9.     
+The digit 0 **cannot** appear in a model number.    
 
 When MONAD checks a hypothetical fourteen-digit model number, it uses fourteen separate inp instructions, 
-each expecting a single digit of the model number in order of most to least significant.     
-(So, to check the model number 13579246899999, you would give 1 to the first inp instruction,     
+each expecting a **single** digit of the model number in order of most to least significant.     
+(So, to check the model number **13579246899999**, you would give 1 to the first inp instruction,     
 3 to the second inp instruction, 5 to the third inp instruction, and so on.) 
-This means that when operating MONAD,     
-each input instruction should only ever be given an integer value of at least 1 and at most 9.
+This means that when operating MONAD, each input instruction should only ever be given an    
+integer value of at least 1 and at most 9.
 
 Then, after MONAD has finished running all of its instructions, it will indicate that the model     
-number was valid by leaving a 0 in variable z. However, if the model number was invalid, it will     
-leave some other non-zero value in z.    
+number was **valid** by leaving a 0 in variable z. However, if the model number was **invalid**,    
+it will leave some other non-zero value in z.    
 
-MONAD imposes additional, mysterious restrictions on model numbers, and legend says the last copy of     
-the MONAD documentation was eaten by a tanuki. You'll need to figure out what MONAD does some other way.    
+MONAD imposes additional, mysterious restrictions on model numbers,     
+and legend says the last copy of the MONAD documentation was eaten by a [tanuki](https://en.wikipedia.org/wiki/Japanese_raccoon_dog).     
+You'll need to **figure out what MONAD does** some other way.    
 
 To enable as many submarine features as possible, find the largest valid fourteen-digit model number     
-that contains no 0 digits. What is the largest model number accepted by MONAD?
+that contains no 0 digits. **What is the largest model number accepted by MONAD?**    
 
 To begin, get your puzzle input.
 
@@ -96,10 +99,10 @@ The first half of this puzzle is complete! It provides one gold star:
 As the submarine starts booting up things like the Retro Encabulator,     
 you realize that maybe you don't need all these submarine features after all.    
 
-What is the smallest model number accepted by MONAD?
+**What is the smallest model number accepted by MONAD?**   
 
 Answer: 
  
-Your puzzle answer was _**92171126131911**__.
+Your puzzle answer was _**92171126131911**_.
 
 Both parts of this puzzle are complete! They provide two gold stars:  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/2star.png)
