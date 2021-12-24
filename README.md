@@ -5,19 +5,23 @@ After >40 years writing in-countable lines of code in M*/COS/ISOS (and some othe
 I decided for myself to set a **strong signal for the future**. We have **Embedded Python** available   
 (still pre-release)! I just felt it as a sacrilege to ignore this excellent **NEW** opportunity and    
 stay with the old sermon that I had used for decades.  
-**Advent** means time of waiting and preparing for something to come.      ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)     
+**Advent** means time of waiting and preparing for something important to come.  ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)     
 So to me, it meant **Advent of Embedded Python Code** that finally showed up.  
-ALL class methods of 25 exercises are exclusively written using Embedded Python.       
+ALL class methods of 25 exercises + Utility are exclusively written using Embedded Python.     
+And I'm proud that it ranked as **#3 completed** by registered members of the Developer Community.        
 
-For later use I added also 
+For later use I have added also 
 - all full descriptions of the exercises as Day*.md,  
 - a snapshot of the private leaderboard at the time of completion of the exercise,
 - all test data, exercises input data and alternate exercises input data,         
-- result summaries for all Test examples, all Exercises, and all alternate Exercises.    
+- result summaries for all Test examples, all Exercises, and all alternate Exercises.
+- full compatible to ZPM and therfore also avialable without Docker image    
 So you are able to follow in all details.
 
 ### Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.   
+**ATTENTION:** The Community License of the IRIS preview imag expires **12/1/2022**   
+
 ### Installation 
 Clone/git pull the repo into any local directory
 ```
