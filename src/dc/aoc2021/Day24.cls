@@ -50,6 +50,8 @@ if part != 2 :
 
 if part != 1 :
     p2 = ''.join(map(str, min))
+    print('Part 2 : ',p2)
+
 }
 
 }
