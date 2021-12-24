@@ -1,5 +1,5 @@
 ## --- Day 24: Arithmetic Logic Unit --- ##
-Magic smoke starts leaking from the submarine's arithmetic logic unit (ALU).    
+Magic smoke starts leaking from the submarine's [arithmetic logic unit](https://en.wikipedia.org/wiki/Arithmetic_logic_unit) (ALU).    
 Without the ability to perform basic arithmetic and logic functions, the submarine can't     
 produce cool patterns with its Christmas lights!    
 
@@ -17,7 +17,7 @@ The ALU also supports **six instructions**:
 - div a b - Divide the value of a by the value of b, truncate the result to an integer,     
 then store the result in variable a. (Here, "truncate" means to round the value toward zero.)    
 - mod a b - Divide the value of a by the value of b, then store the **remainder** in variable a.     
-(This is also called the modulo operation.)    
+(This is also called the [modulo](https://en.wikipedia.org/wiki/Modulo_operation) operation.)    
 - eql a b - If the value of a and b are equal, then store the value 1 in variable a.     
 Otherwise, store the value 0 in variable a.    
 
@@ -96,7 +96,7 @@ The first half of this puzzle is complete! It provides one gold star:
 ![](https://raw.githubusercontent.com/rcemper/ZPretty/master/1star.png)
 
 ## --- Part Two --- ##
-As the submarine starts booting up things like the Retro Encabulator,     
+As the submarine starts booting up things like the[ Retro Encabulator](https://www.youtube.com/watch?v=RXJKdh1KZ0w),     
 you realize that maybe you don't need all these submarine features after all.    
 
 **What is the smallest model number accepted by MONAD?**   
