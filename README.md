@@ -20,7 +20,7 @@ So you are able to follow in all details.
 
 ### Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.   
-**ATTENTION:** The Community License of the IRIS preview imag expires **12/1/2022**   
+**ATTENTION:** The Community License of the IRIS preview image expires **12/1/2022**   
 
 ### Installation 
 Clone/git pull the repo into any local directory
