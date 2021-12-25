@@ -81,5 +81,9 @@ Part 2 :  44618
         ../aoc/input24.txt
 Part 1 :  99394899891971
 Part 2 :  92171126131911
+        ../aoc/input25.txt
+Part 1 :  329
+Part 2 :  Congratulations!
+        You've finished every puzzle in Advent of Code 2021
 
 USER>

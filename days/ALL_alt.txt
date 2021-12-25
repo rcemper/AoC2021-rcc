@@ -82,5 +82,9 @@ Part 2 :  41284
         ../aoc/alt/24.txt
 Part 1 :  12996997829399
 Part 2 :  11841231117189
+        ../aoc/alt/25.txt
+Part 1 :  429
+Part 2 :  Congratulations!
+        You've finished every puzzle in Advent of Code 2021
 
 USER>

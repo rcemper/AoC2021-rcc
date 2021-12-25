@@ -246,5 +246,17 @@ Part 2 :  11841231117189
         ../aoc/tst24.txt
 Part 1 :  00000000000000
 Part 2 :  00000000000000
+        ../aoc/input25.txt
+Part 1 :  329
+Part 2 :  Congratulations!
+        You've finished every puzzle in Advent of Code 2021
+        ../aoc/alt/25.txt
+Part 1 :  429
+Part 2 :  Congratulations!
+        You've finished every puzzle in Advent of Code 2021
+        ../aoc/tst25.txt
+Part 1 :  58
+Part 2 :  Congratulations!
+        You've finished every puzzle in Advent of Code 2021
 
 USER>
