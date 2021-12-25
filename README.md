@@ -76,6 +76,6 @@ Setup Objectscript code which is being executed during docker build phase
 #### .vscode/settings.json
 Settings file to let you immediatley code in VSCode with [VSCode ObjectScript plugin](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript))
 
-![image](https://user-images.githubusercontent.com/31236645/147001566-b6005e88-9fae-42ab-9656-b4b9ea40a375.png)
+![image](https://user-images.githubusercontent.com/31236645/147383045-964967ea-a7ba-4357-9012-1930c58b1806.png)
 
 [Article in DC](https://community.intersystems.com/post/aoc2021-rcc)
