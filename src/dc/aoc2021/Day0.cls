@@ -1,6 +1,6 @@
 Class dc.aoc2021.Day0 [ Language = python ]
 {
-// for d=0:1:15 do $classmethod("dc.aoc2021.Day"_d,"Run",0,0) r !,y:1
+// for d=0:1:25 do $classmethod("dc.aoc2021.Day"_d,"Run",0,-1) read !,y:1
 // d ##class(dc.aoc2021.Day0).Run()
 
 ClassMethod Run(part = 0, test = -1) As %Integer [ Language = python ]
