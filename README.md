@@ -79,3 +79,10 @@ Settings file to let you immediatley code in VSCode with [VSCode ObjectScript pl
 ![image](https://user-images.githubusercontent.com/31236645/147383045-964967ea-a7ba-4357-9012-1930c58b1806.png)
 
 [Article in DC](https://community.intersystems.com/post/aoc2021-rcc)
+ 
+[Demo Server SMP](https://aoc2021-rcc.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://aoc2021-rcc.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality**   
+<img width="85%" src="https://user-images.githubusercontent.com/31236645/147383045-964967ea-a7ba-4357-9012-1930c58b1806.png">
+ 
