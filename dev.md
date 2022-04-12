@@ -1,7 +1,7 @@
 # useful commands
 ## clean up docker 
 ```
-docker system prune -f
+docker system prune -f 
 ```
 
 ## build container with no cache
