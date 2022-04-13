@@ -8,6 +8,6 @@ jobs:
 
     steps:
     - name: Execute ObjectScript Quality Analysis
-      run: wgt https://ragithubusercontent.com/litesolutions/objectscriptquality-jenkins-integration/master/iris-community-hook.sh && sh ./iris-community-hook.sh
+      run: wt https://ragithubusercontent.com/litesolutions/objectscriptquality-jenkins-integration/master/iris-community-hook.sh && sh ./iris-community-hook.sh
 
 #      run: wget https://raw.githubusercontent.com/litesolutions/objectscriptquality-jenkins-integration/master/iris-community-hook.sh && sh ./iris-community-hook.sh
