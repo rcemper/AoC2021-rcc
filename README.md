@@ -61,20 +61,6 @@ for example=1:1:15 do ##class(dc.aoc2021.Day16).Run(,example)
 ````
 Files <repo>/data/ALL*.txt hold all available results
 
-### How to start coding
-This repository is ready to code in VSCode with ObjectScript plugin.       
-Install [VSCode](https://code.visualstudio.com/), [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) and [ObjectScript](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript) plugin and open the folder in VSCode.    
-Open /src/cls/aoc2021/******.cls class and try to make changes      
-- it will be compiled in running IRIS docker container.    
-### What else is inside the repository
-#### Dockerfile
-The simplest dockerfile which starts IRIS and imports code from /src folder into it.      
-Use the related docker-compose.yml to easily setup additional parametes     
-like port number and where you map keys and host folders.
-#### iris.script
-Setup Objectscript code which is being executed during docker build phase
-#### .vscode/settings.json
-Settings file to let you immediatley code in VSCode with [VSCode ObjectScript plugin](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript))
 [Article in DC](https://community.intersystems.com/post/aoc2021-rcc)
  
 [Demo Server SMP](https://aoc2021-rcc.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
